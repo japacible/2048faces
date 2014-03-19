@@ -318,30 +318,29 @@ hr {
     color: #f9f6f2;
     font-size: 55px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    background:rgba(170, 170, 170, 0.5);
-  }
+    background:rgba(170, 170, 170, 0.5); }
   .tile.tile-2 .tile-inner {
-    background-image: url(../img/corgi-one.jpg);
+    background-image: url(../img/dmah-one.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background-image: url(../img/corgi-two.jpg);
+    background-image: url(../img/dmah-two.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background-image: url(../img/corgi-three.jpg);
+    background-image: url(../img/dmah-three.jpg);
     background-size:107px 107px;}
   .tile.tile-16 .tile-inner {
-    background-image: url(../img/corgi-four.jpg);
+    background-image: url(../img/dmah-four.jpg);
     background-size:107px 107px;}
   .tile.tile-32 .tile-inner {
-    background-image: url(../img/corgi-five.jpg);
+    background-image: url(../img/dmah-five.jpg);
     background-size:107px 107px;}
   .tile.tile-64 .tile-inner {
-    background-image: url(../img/corgi-six.jpg);
+    background-image: url(../img/dmah-six.jpg);
     background-size:107px 107px;}
   .tile.tile-128 .tile-inner {
-    background-image: url(../img/corgi-seven.jpg);
+    background-image: url(../img/dmah-seven.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
@@ -349,7 +348,7 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background-image: url(../img/corgi-eight.jpg);
+    background-image: url(../img/dmah-eight.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -357,7 +356,7 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background-image: url(../img/corgi-nine.jpg);
+    background-image: url(../img/dmah-nine.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -365,7 +364,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background-image: url(../img/corgi-ten.jpg);
+    background-image: url(../img/dmah-ten.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -373,7 +372,7 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    background-image: url(../img/corgi-eleven.jpg);
+    background-image: url(../img/dmah-eleven.jpg);
     background-size:107px 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
@@ -382,7 +381,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     font-size: 30px;
-    background-image: url(../img/corgi-super.jpg);
+    background-image: url(../img/dmah-super.jpg);
     background-size:107px 107px;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
