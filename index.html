@@ -22,8 +22,18 @@
         <div class="best-container">0</div>
       </div>
     </div>
-    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+    <p class="game-intro">
+      Join the numbers and get to the <strong>2048 tile!</strong>
+    </p>
 
+    <div class="theme-select">
+      <select name="select" id="theme" onchange="changeTheme(this.value)">
+        <option>Select</option>
+        <option value="dmah">David</option>
+        <!--<option value="sunjayc">Sunjay</option>-->
+        <option value="corgi">Baxter</option>
+      </select>
+    </div>
     <div class="game-container">
       <div class="game-message">
         <p></p>
@@ -75,7 +85,7 @@
     Originally created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
   </div>
-
+  <script src="js/jquery-2.1.0.min.js"></script>
   <script src="js/animframe_polyfill.js"></script>
   <script src="js/keyboard_input_manager.js"></script>
   <script src="js/html_actuator.js"></script>
@@ -84,5 +94,6 @@
   <script src="js/local_score_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
+  <script src="js/switch_img.js"></script>
 </body>
 </html>
