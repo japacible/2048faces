@@ -15,7 +15,8 @@ var changeTheme = function(name) {
 // level: whichever number the tile is currently at
 var change = function(name, level) {
   // console.log("change : " + name + " " + level);
-  var src = "../img/" + name + "-" + level + ".jpg";
+  var src = "http://japacible.github.io/2048faces/img/" 
+    + name + "-" + level + ".jpg";
   var current = ".tile.tile-" + level + " .tile-inner";
   $(current).css("background-image", "url(" + src + ")");
 }
