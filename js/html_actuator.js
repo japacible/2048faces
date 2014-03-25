@@ -83,6 +83,13 @@ HTMLActuator.prototype.addTile = function (tile) {
     this.applyClasses(wrapper, classes);
   }
 
+  // Background matches the selected theme
+  var select = document.getElementById("theme");
+  var name = select.options[select.selectedIndex].value;
+  var level = tile.value;
+  var src = "../img/" + name + "-" + level + ".jpg";
+  $(inner).css("background-image", "url(" + src + ")");
+
   // Add the inner part of the tile to the wrapper
   wrapper.appendChild(inner);
 
