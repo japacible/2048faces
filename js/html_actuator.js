@@ -89,7 +89,19 @@ HTMLActuator.prototype.addTile = function (tile) {
   var level = tile.value;
   var src = "http://japacible.github.io/2048faces/img/" 
     + name + "-" + level + ".jpg";
-  $(inner).css("background-image", "url(" + src + ")");
+  var cssProperty = "url(" + src + ")";
+
+  var oldBackground = $(inner).css("background-image");
+
+  // TODO 
+  console.log(cssProperty); // prints ok
+  console.log(inner); // prints ok
+  console.log(inner.style.backgroundImage); // prints blank
+  console.log(oldBackground); // prints blank
+  if (oldBackground !== cssProperty) {
+    console.log("did not equal");
+    $(inner).css("background-image", cssProperty);
+  }
 
   // Add the inner part of the tile to the wrapper
   wrapper.appendChild(inner);
